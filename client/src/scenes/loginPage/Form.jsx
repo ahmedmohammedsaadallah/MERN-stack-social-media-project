@@ -64,7 +64,7 @@ const Form = () => {
     formData.append("picturePath", values.picture.name);
 
     const savedUserResponse = await fetch(
-      "https://social-media-project-nzcu.onrender.com:3001/auth/register",
+      "https://social-media-project-nzcu.onrender.com/auth/register",
       {
         method: "POST",
         body: formData,
